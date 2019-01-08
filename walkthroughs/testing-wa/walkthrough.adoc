@@ -9,6 +9,8 @@ image::images/testing.jpeg[<This should be a testing image>, role="integr8ly-img
 
 The openshift host url is {openshift-host}.
 The AMQ url is {amq-url}.
+Che URL is {che-url}.
+Fuse URL is {fuse-url}.
 
 === Step
 . first
