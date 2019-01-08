@@ -1,0 +1,40 @@
+= This is a testing walkthrough
+
+This is simple custom walkthrough for testing purposes. 
+
+[time=5]
+== Testing Task 1
+
+image::testing.jpeg[<This should be a testing image>, role="integr8ly-img-responsive"]
+
+=== Step
+. first
+. second
+. third
+
+[type=verification]
+Check that the dashboard of service X reports no errors.
+
+[time=15]
+== Testing Task 2
+
+*Lorem ipsum dolor sit amet*, consectetur adipiscing elit. Quisque malesuada eget velit eleifend feugiat. Mauris sodales risus nisl, ut dignissim magna dapibus eu. Quisque consequat tristique purus quis eleifend. Donec rutrum, dolor eu eleifend lobortis, lorem tellus volutpat leo, nec ultricies sem mi a orci. Pellentesque convallis vulputate tortor, et auctor ligula cursus quis. Sed eget lorem vulputate, accumsan metus eget, ullamcorper lectus. Sed vitae nisl sit amet odio scelerisque faucibus vel id sapien. Mauris sed mollis libero. 
+
+=== Step 1 
+. first
+. second
+. third
+
+=== Step 2
+This is step description.
+
+. first
+. second
+. third
+
+[type=verification]
+Check that the dashboard of service X reports no errors.
+
+
+
+
