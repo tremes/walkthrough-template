@@ -1,6 +1,84 @@
 {
   "dependencies": {
     "repos": [],
-    "serviceInstances": []
+    "serviceInstances": [
+      {
+        "apiVersion": "servicecatalog.k8s.io/v1beta1",
+        "kind": "ServiceInstance",
+        "metadata": {
+          "creationTimestamp": "2019-01-09T09:33:00Z",
+          "finalizers": [
+            "kubernetes-incubator/service-catalog"
+          ],
+          "generateName": "fuse-",
+          "generation": 1,
+          "name": "fuse-gln92",
+          "namespace": "evals03-shared-d706",
+          "resourceVersion": "588165",
+          "selfLink": "/apis/servicecatalog.k8s.io/v1beta1/namespaces/evals03-shared-d706/serviceinstances/fuse-gln92",
+          "uid": "8e3bf62d-13f1-11e9-ae1f-0a580a010007"
+        },
+        "spec": {
+          "clusterServiceClassExternalName": "fuse",
+          "clusterServiceClassRef": {
+            "name": "fuse-service-id"
+          },
+          "clusterServicePlanExternalName": "default-fuse",
+          "clusterServicePlanRef": {
+            "name": "default-fuse"
+          },
+          "externalID": "8e3bf5e9-13f1-11e9-ae1f-0a580a010007",
+          "updateRequests": 0,
+          "userInfo": {
+            "extra": {
+              "scopes.authorization.openshift.io": [
+                "user:full"
+              ]
+            },
+            "groups": [
+              "system:authenticated:oauth",
+              "system:authenticated"
+            ],
+            "uid": "",
+            "username": "evals03"
+          }
+        },
+        "status": {
+          "asyncOpInProgress": false,
+          "conditions": [
+            {
+              "lastTransitionTime": "2019-01-09T09:35:12Z",
+              "message": "The instance was provisioned successfully",
+              "reason": "ProvisionedSuccessfully",
+              "status": "True",
+              "type": "Ready"
+            }
+          ],
+          "dashboardURL": "https://fuse-8e3bf5e9-13f1-11e9-ae1f-0a580a010007.apps.tremes-204d.openshiftworkshop.com",
+          "deprovisionStatus": "Required",
+          "externalProperties": {
+            "clusterServicePlanExternalID": "default-fuse",
+            "clusterServicePlanExternalName": "default-fuse",
+            "userInfo": {
+              "extra": {
+                "scopes.authorization.openshift.io": [
+                  "user:full"
+                ]
+              },
+              "groups": [
+                "system:authenticated:oauth",
+                "system:authenticated"
+              ],
+              "uid": "",
+              "username": "evals03"
+            }
+          },
+          "observedGeneration": 1,
+          "orphanMitigationInProgress": false,
+          "provisionStatus": "Provisioned",
+          "reconciledGeneration": 1
+        }
+      }
+    ]
   }
 }
