@@ -1,6 +1,6 @@
-= This is a testing walkthrough
+= This is a testing walkthrough #2
 
-This is simple custom walkthrough for testing purposes. 
+This is simple custom walkthrough from "test" branch 
 
 [time=5]
 == Testing Task 1
@@ -8,9 +8,14 @@ This is simple custom walkthrough for testing purposes.
 image::images/testing.jpeg[<This should be a testing image>, role="integr8ly-img-responsive"]
 
 The openshift host url is {openshift-host}.
+
 The AMQ url is {amq-url}.
+
 Che URL is {che-url}.
+
 Fuse URL is {fuse-url}.
+
+EnMasse URL is {enmasse-url}.
 
 === Step
 . first
