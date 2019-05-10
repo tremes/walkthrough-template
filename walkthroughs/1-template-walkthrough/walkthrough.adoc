@@ -42,3 +42,5 @@ AMQ Online Credential Username: {enmasse-credentials-username}
 AMQ Online Credential Password: {enmasse-credentials-password}
 
 {route-frontend-host}
+
+. Log into the link:{route-cakephp-mysql-example-host}[CakePHP app].
