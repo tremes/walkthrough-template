@@ -1,9 +1,9 @@
-= Template Walkthrough
+= My First Walkthrough
 
 // This is a template meant to be used as a starting point for walkthrough development
 
-[time=5]
-== Task Title
+[time=12]
+== Doing the first task
 
 // Subtasks are not required. 
 // For simple walkthroughs, create your procedure under tasks.
@@ -12,3 +12,15 @@
 
 . Do first step.
 . Do second step.
+
+[type=taskResource]
+.Useful links
+****
+* link:https://google.com[Task related link]
+****
+
+[type=walkthroughResource,serviceName=openshift]
+.OpenShift
+****
+* link:{openshift-host}[Openshift Console, window="_blank"]
+****
