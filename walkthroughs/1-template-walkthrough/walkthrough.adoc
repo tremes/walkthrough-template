@@ -24,3 +24,21 @@
 ****
 * link:{openshift-host}[Openshift Console, window="_blank"]
 ****
+
+[type=verification]
+Check that the dashboard of service X reports no errors.
+
+[type=verificationFail]
+Try turning it off and on again.
+
+OpenShift App Host: {openshift-app-host}
+CodeReady Workspaces URL: {che-url}.
+Fuse URL: {fuse-url}
+Launcher URL: {launcher-url}
+API Management URL: {api-management-url}
+AMQ Online URL: {enmasse-url}
+AMQ Online Broker URL: {enmasse-broker-url}
+AMQ Online Credential Username: {enmasse-credentials-username}
+AMQ Online Credential Password: {enmasse-credentials-password}
+
+{route-frontend-host}
